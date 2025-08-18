@@ -781,8 +781,8 @@ if (!isClosed) {
 - **Highest → Lowest precedence** (common ones):
   1. `()` (Parentheses)
   2. `++`, `--` (Increment/Decrement)
-  3. , `/`, `%`
-  4. `+`,
+  3. `*`, `/`, `%`
+  4. `+`,`-`
   5. `<`, `>`, `<=`, `>=`
   6. `==`, `!=`
   7. `&&`
@@ -802,5 +802,5 @@ if (!isClosed) {
 - **Constants** → Declared using `final`.
 - **Conditionals** → if, if-else, nested if, switch.
 - **Logical Operators** → AND (`&&`), OR (`||`), NOT (`!`).
-- **Precedence** → `()` > `/ %` > `+ -` > comparison > logical > assignment.
+- **Precedence** → `()` > `* / %` > `+ -` > comparison > logical > assignment.
 - **Loops** → while, for, do-while.
