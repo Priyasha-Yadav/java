@@ -780,7 +780,7 @@ if (!isClosed) {
 - **Order of evaluation** when multiple operators appear.
 - **Highest → Lowest precedence** (common ones):
   1. `()` (Parentheses)
-  2. `++`, `-` (Increment/Decrement)
+  2. `++`, `--` (Increment/Decrement)
   3. , `/`, `%`
   4. `+`,
   5. `<`, `>`, `<=`, `>=`
@@ -790,43 +790,6 @@ if (!isClosed) {
   9. `=` (Assignment)
 
 👉 Use **parentheses** to avoid confusion.
-
----
-
-## **10. Loops in Java**
-
-### **a) while Loop**
-
-```java
-int i = 1;
-while (i <= 5) {
-    System.out.println(i);
-    i++;
-}
-
-```
-
-### **b) for Loop**
-
-```java
-for (int i = 1; i <= 5; i++) {
-    System.out.println(i);
-}
-
-```
-
-### **c) do-while Loop**
-
-- Executes **at least once**, even if condition is false.
-
-```java
-int i = 1;
-do {
-    System.out.println(i);
-    i++;
-} while (i <= 5);
-
-```
 
 ---
 
