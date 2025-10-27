@@ -22,7 +22,7 @@ public class SwapTwoVariables {
             // The code `int temp = var1; var1 = var2; var2 = temp;` is swapping the values of the two variables
             // `var1` and `var2`.
             
-            int temp = var1; 
+            int temp = var1;
             var1 = var2;
             var2 = temp;
             System.out.println("First variable's value: " + var1);
